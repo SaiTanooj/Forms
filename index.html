@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Application form </title>
+  </head>
+  <body>
+    <h1>Personal Details</h1>
+    <table border :1>
+      <form class="" action="index.html" method="post">
+        <tr>
+          <th>Name</th>
+
+            <td><input type="text" name="name" placeholder="firstname" required="required"></td>
+            <td><input type="text" name="middlename" placeholder="middlename" ></td>
+            <td><input type="text" name="lastname" placeholder="lastname" required="req1uired"></td>
+
+
+
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td><input type="text" name="Streetname" placeholder="Stretname"></td>
+          <td><input type="number" name="Pincode" placeholder="Pincode" maxlength="6"></td>
+          <td><input type="text" name="housenumber" placeholder="hno/fno"></td>
+          <td><input type="text" name="Landmark" placeholder="landmark "></td>
+
+        </tr>
+        <tr>
+          <th>Gender</th>
+          <td>Male <input type="radio" name="gender"></td>
+          <td>Female <input type="radio" name="gender"></td>
+          <td>Neutral <input type="radio" name="gender"></td>
+        </tr>
+        <tr>
+          <th>Age</th>
+          <td><input type="range" name="range" min="18" max="60" ></td>
+        </tr>
+        <tr>
+
+            <th>Phone number</th>
+            <td> <input type="number" name="number" maxlength="10" required="required"></td>
+
+
+          <th>Landline number</th>
+          <td><input type="number" name="landline" maxlength="10"></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="email" name="email" placeholder="xxxxxx@xxx.com" required="required"></td>
+
+        </tr>
+
+      </form>
+
+
+
+    </table>
+      the above entered emil is correct and could be used to contact me <input type="checkbox" name="" required="required">
+      <br>
+      the above entered details are correct to the best of my knowledge <input type="checkbox" name="" required="required">
+      <h2>Job experience</h2>
+      <table>
+        <form class="" action="index.html" method="post">
+          <table border="1">
+            <form class="" action="index.html" method="post">
+              <tr>
+                <th>Applying for</th>
+                <td>
+                  <select class="dropdown" name="Applying for">
+                    <optgroup label="Grade c">
+                      <option value="Post 1">Post 1</option>
+                      <option value="Post 2"> Post 2</option>
+                      <option value="Post 3"> Post 3</option>
+
+                      </optgroup>
+                      <optgroup label="Grade B">
+                        <option value="Post 1">Post 1</option>
+                        <option value="Post 2"> Post 2</option>
+                        <option value="Post 3"> Post 3</option>
+
+                      </optgroup>
+                      <optgroup label="Grade A">
+                        <option value="Post 1">Post 1</option>
+                        <option value="Post 2"> Post 2</option>
+                        <option value="Post 3"> Post 3</option>
+
+                      </optgroup>
+
+
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th>Work experience</th>
+                <td>6 months-1 year <input type="radio" name="workexp"></td>
+                <td>1 years-2.5year <input type="radio" name="workexp"></td>
+                <td>3 years-5 years <input type="radio" name="workexp"></td>
+              </tr>
+              <tr>
+                <th>Details of previous work exp</th>
+                <td>Enetr ur  previous payslip<input type="file" name="" value=""></td>
+              </tr>
+
+
+            </form>
+
+          </table>
+          <h3>Graduation Details</h3>
+          <table border="1S">
+            <form class="" action="index.html" method="post">
+              <tr>
+                <th>Enter 10th class certificate</th>
+                <td><input type="file" name="" value=""></td>
+              </tr>
+              <tr>
+                <th>Enter 12th class certificate</th>
+                <td><input type="file" name="" value=""></td>
+              </tr>
+              <tr>
+                <th>Enter degree certificate</th>
+                <td><input type="file" name="" value=""></td>
+              </tr>
+
+            </form>
+          </table>
+          <br>
+            Do you wish to submit <input type="submit" name="" value="">
+            <br>
+            Do youwant to change the deatils <input type="reset" name="" value="clear">
+
+
+
+  </body>
+</html>
